@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+            android:layout_width="500dp"
+            android:layout_height="170dp"
+            android:background="@drawable/frutos"
+            android:textSize="250dp"
+            tools:targetApi="m"/>
+
+
+    <com.google.android.material.button.MaterialButton
+            android:layout_width="260dp"
+            android:layout_height="80dp"
+            android:text="Fresa"
+            android:textSize="30dp"
+            android:backgroundTint="@color/design_default_color_primary_variant"
+            android:layout_marginEnd="200dp" android:layout_marginBottom="200dp"
+            android:layout_marginTop="200dp"
+            />
+    <com.google.android.material.button.MaterialButton
+            android:layout_width="260dp"
+            android:layout_height="80dp"
+            android:text="Piña"
+            android:textSize="30dp"
+            android:backgroundTint="@color/design_default_color_primary_variant"
+            android:layout_marginEnd="200dp" android:layout_marginBottom="200dp"
+            android:layout_marginTop="300dp"
+    />
+    <com.google.android.material.button.MaterialButton
+            android:layout_width="260dp"
+            android:layout_height="80dp"
+            android:text="Uvas"
+            android:textSize="30dp"
+            android:backgroundTint="@color/design_default_color_primary_variant"
+            android:layout_marginEnd="200dp" android:layout_marginBottom="200dp"
+            android:layout_marginTop="400dp"
+    />
+    <com.google.android.material.button.MaterialButton
+            android:layout_width="260dp"
+            android:layout_height="80dp"
+            android:text="patilla"
+            android:textSize="30dp"
+            android:backgroundTint="@color/design_default_color_primary_variant"
+            android:layout_marginEnd="200dp" android:layout_marginBottom="250dp"
+            android:layout_marginTop="500dp"
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/socialicons"
+        android:layout_alignParentBottom="true">
+        <com.google.android.material.button.MaterialButton
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_margin="30dp"
+                android:id="@+id/signupbtn"
+                android:text="atras"
+                android:textSize="30dp"
+                android:backgroundTint="@color/design_default_color_secondary"
+                android:layout_marginTop="400dp" android:layout_marginStart="500dp"
+                android:layout_marginEnd="100dp" android:layout_marginBottom="100dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

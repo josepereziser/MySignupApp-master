@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+            android:layout_width="185dp"
+            android:layout_height="157dp"
+            android:background="@drawable/temperatura1"
+            android:layout_marginTop="10dp" android:layout_marginStart="30dp"
+            android:textSize="10dp"
+            />
+    <TextView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="40dp" android:layout_marginStart="230dp"
+            android:textSize="30dp"
+            android:text="Control de temperatura"
+            tools:targetApi="M"
+    />
+    <TextView
+            android:layout_width="239dp"
+            android:layout_height="135dp"
+            android:layout_marginTop="200dp" android:layout_marginStart="230dp"
+            android:textSize="30dp"
+            android:text="Frutas"
+    />
+    <TextView
+            android:layout_width="239dp"
+            android:layout_height="135dp"
+            android:layout_marginTop="400dp" android:layout_marginStart="230dp"
+            android:textSize="30dp"
+            android:text="verduras"
+    />
+
+
+    <TextView
+            android:layout_width="185dp"
+            android:layout_height="157dp"
+            android:background="@drawable/frutos"
+            android:layout_marginTop="200dp" android:layout_marginStart="30dp"
+            android:layout_marginEnd="150dp" android:layout_marginBottom="100dp"
+            android:textSize="10dp"
+            tools:targetApi="m"/>
+    <TextView
+            android:layout_width="185dp"
+            android:layout_height="157dp"
+            android:background="@drawable/verduras"
+            android:layout_marginTop="400dp" android:layout_marginStart="30dp"
+            android:layout_marginEnd="150dp" android:layout_marginBottom="100dp"
+            android:textSize="10dp"
+            tools:targetApi="m"/>
+
+    <com.google.android.material.button.MaterialButton
+            android:layout_width="1000dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/signupbtn"
+            android:text="atras"
+            android:textSize="30dp"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/design_default_color_secondary"
+            android:layout_marginTop="650dp" android:layout_marginStart="50dp"
+            android:layout_marginEnd="150dp" android:layout_marginBottom="100dp"/>
+
+
+
+
+
+
+</RelativeLayout>
