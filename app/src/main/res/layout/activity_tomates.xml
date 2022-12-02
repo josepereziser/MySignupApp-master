@@ -10,7 +10,7 @@
     <TextView
             android:layout_width="200dp"
             android:layout_height="150dp"
-            android:background="@drawable/fresa"
+            android:background="@drawable/tomate"
             android:layout_marginTop="20dp" android:layout_marginStart="30dp"
             tools:targetApi="m"/>
 
@@ -18,10 +18,10 @@
             android:layout_width="400dp"
             android:layout_height="400dp"
             android:layout_marginTop="200dp" android:layout_marginStart="10dp"
-            android:text="La temperatura óptima para la fructificación se sitúa en torno a los 15-20ºC
-Temperatura mínima vegetativa de 2ºC, y máxima de 40ºC, dependiendo de la variedad.
-Temperatura óptima para la fecundación entre 12ºC y 25ºC, a partir de esos valores resulta defectuosa o nula.
-Humedad relativa en torno al 60-80%."
+            android:text="la temperatura del tomate es entre 20 y 25 ºC durante
+            el día y entre los 15 y 18 ºC durante la noche. Es una planta que
+            requiere una variación entre la temperatura diurna y nocturna de
+            aproximadamente 6 a 7 ºC"
             android:textSize="28dp"
     />
 
